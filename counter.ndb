@@ -1,0 +1,138 @@
+NDB006
+The number of symbol table entries is: 49
+The length of the symbol table is: 1369
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+.	|clockDivisor:cd|T_FF:t0|
+H	|clockDivisor:cd|T_FF:t0|D_FF:dff|
+k	|clockDivisor:cd|T_FF:t1|
+"'	|clockDivisor:cd|T_FF:t1|D_FF:dff|
+"J	|clockDivisor:cd|T_FF:t2|
+"d	|clockDivisor:cd|T_FF:t2|D_FF:dff|
+#)	|clockDivisor:cd|T_FF:t3|
+#C	|clockDivisor:cd|T_FF:t3|D_FF:dff|
+#f	|clockDivisor:cd|T_FF:t4|
+$"	|clockDivisor:cd|T_FF:t4|D_FF:dff|
+$E	|clockDivisor:cd|T_FF:t5|
+$_	|clockDivisor:cd|T_FF:t5|D_FF:dff|
+%$	|clockDivisor:cd|T_FF:t6|
+%>	|clockDivisor:cd|T_FF:t6|D_FF:dff|
+%a	|clockDivisor:cd|T_FF:t7|
+%{	|clockDivisor:cd|T_FF:t7|D_FF:dff|
+&@	|clockDivisor:cd|T_FF:t8|
+&Z	|clockDivisor:cd|T_FF:t8|D_FF:dff|
+&}	|clockDivisor:cd|T_FF:t9|
+'9	|clockDivisor:cd|T_FF:t9|D_FF:dff|
+'\	|clockDivisor:cd|T_FF:t10|
+'w	|clockDivisor:cd|T_FF:t10|D_FF:dff|
+(=	|clockDivisor:cd|T_FF:t11|
+(X	|clockDivisor:cd|T_FF:t11|D_FF:dff|
+(|	|clockDivisor:cd|T_FF:t12|
+)9	|clockDivisor:cd|T_FF:t12|D_FF:dff|
+)]	|clockDivisor:cd|T_FF:t13|
+)x	|clockDivisor:cd|T_FF:t13|D_FF:dff|
+*>	|clockDivisor:cd|T_FF:t14|
+*Y	|clockDivisor:cd|T_FF:t14|D_FF:dff|
+*}	|clockDivisor:cd|T_FF:t15|
++:	|clockDivisor:cd|T_FF:t15|D_FF:dff|
++^	|clockDivisor:cd|T_FF:t16|
++y	|clockDivisor:cd|T_FF:t16|D_FF:dff|
+,?	|clockDivisor:cd|T_FF:t17|
+,Z	|clockDivisor:cd|T_FF:t17|D_FF:dff|
+,~	|clockDivisor:cd|T_FF:t18|
+-;	|clockDivisor:cd|T_FF:t18|D_FF:dff|
+-_	|clockDivisor:cd|T_FF:t19|
+-z	|clockDivisor:cd|T_FF:t19|D_FF:dff|
+.@	|T_FF:t0|
+.J	|T_FF:t0|D_FF:dff|
+.]	|T_FF:t1|
+.g	|T_FF:t1|D_FF:dff|
+.z	|T_FF:t2|
+/&	|T_FF:t2|D_FF:dff|
+/9	|T_FF:t3|
+/C	|T_FF:t3|D_FF:dff|
+
+The number of name info structs is : 78
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	(@\6H	!	3	0	1	*	clk	o
+#	"?%_o	!	2	0	2	$	#	out0	!	out0	t
+$	"?%_o	!	2	0	2	%	$	out1	!	out1	s
+%	"?%_o	!	2	0	2	&	%	out2	!	out2	r
+&	"?%_o	!	2	0	1	&	out3	!	out3	q
+'	L8ef	!	3	0	24	*	K	N	Q	T	W	Z	]	`	c	-	0	3	6	9	<	?	B	E	H	#	$	%	&	reset	p
+(	IeEA	.	45	0	:5	#G
+)	IGdW	H	:5	#V
+*	L8e}	H	52	0	2	K	*	:6	#W
++	IeEA	'\	45	0	:5	%}
+,	IGdW	'w	:5	&-
+-	L8e}	'w	52	0	2	0	-	:6	&.
+.	IeEA	(=	45	0	:5	&7
+/	IGdW	(X	:5	&E
+0	L8e}	(X	52	0	2	3	0	:6	&F
+1	IeEA	(|	45	0	:5	&O
+2	IGdW	)9	:5	&]
+3	L8e}	)9	52	0	2	6	3	:6	&^
+4	IeEA	)]	45	0	:5	&g
+5	IGdW	)x	:5	&u
+6	L8e}	)x	52	0	2	9	6	:6	&v
+7	IeEA	*>	45	0	:5	'!
+8	IGdW	*Y	:5	'/
+9	L8e}	*Y	52	0	2	<	9	:6	'0
+:	IeEA	*}	45	0	:5	'9
+;	IGdW	+:	:5	'G
+<	L8e}	+:	52	0	2	?	<	:6	'H
+=	IeEA	+^	45	0	:5	'Q
+>	IGdW	+y	:5	'_
+?	L8e}	+y	52	0	2	B	?	:6	'`
+@	IeEA	,?	45	0	:5	'i
+A	IGdW	,Z	:5	'w
+B	L8e}	,Z	52	0	2	E	B	:6	'x
+C	IeEA	,~	45	0	:5	(#
+D	IGdW	-;	:5	(1
+E	L8e}	-;	52	0	2	H	E	:6	(2
+F	IeEA	-_	45	0	:5	(;
+G	IGdW	-z	:5	(I
+H	L8e}	-z	52	0	2	#	H	:6	(J
+I	IeEA	k	45	0	:5	#a
+J	IGdW	"'	:5	#o
+K	L8e}	"'	52	0	2	N	K	:6	#p
+L	IeEA	"J	45	0	:5	#y
+M	IGdW	"d	:5	$)
+N	L8e}	"d	52	0	2	Q	N	:6	$*
+O	IeEA	#)	45	0	:5	$3
+P	IGdW	#C	:5	$A
+Q	L8e}	#C	52	0	2	T	Q	:6	$B
+R	IeEA	#f	45	0	:5	$K
+S	IGdW	$"	:5	$Y
+T	L8e}	$"	52	0	2	W	T	:6	$Z
+U	IeEA	$E	45	0	:5	$c
+V	IGdW	$_	:5	$q
+W	L8e}	$_	52	0	2	Z	W	:6	$r
+X	IeEA	%$	45	0	:5	${
+Y	IGdW	%>	:5	%+
+Z	L8e}	%>	52	0	2	]	Z	:6	%,
+[	IeEA	%a	45	0	:5	%5
+\	IGdW	%{	:5	%C
+]	L8e}	%{	52	0	2	`	]	:6	%D
+^	IeEA	&@	45	0	:5	%M
+_	IGdW	&Z	:5	%[
+`	L8e}	&Z	52	0	2	c	`	:6	%\
+a	IeEA	&}	45	0	:5	%e
+b	IGdW	'9	:5	%s
+c	L8e}	'9	52	0	2	-	c	:6	%t
+d	IeEA	.@	45	0	:5	(S
+e	IGdW	.J	:5	(a
+f	IeE1	.J	52	0	:6	(b
+g	IeEA	.]	45	0	:5	(k
+h	IGdW	.g	:5	(y
+i	IeE1	.g	52	0	:6	(z
+j	IeEA	.z	45	0	:5	)%
+k	IGdW	/&	:5	)3
+l	IeE1	/&	52	0	:6	)4
+m	IeEA	/9	45	0	:5	)=
+n	IGdW	/C	:5	)K
+o	IeE1	/C	52	0	:6	)L
